@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+.entete {
+    background: gray;
+    color: #ffffff;
+    /* position: fixed; */
+    top: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.entete img {
+    width: 100%;
+    height: auto;
+}
+.title-big {
+    float: left;
+    margin: 0.5rem 0 0 0;
+    font-style: italic;
+    text-transform: capitalize;
+    color:rgb(226, 79, 104);
+}
+.header-nav {
+    text-align: center;
+    background: rgb(226, 79, 104);
+    margin: 0.5rem 0 0 ;
+    float: right;
+    
+}
+
+/* .clear-float {
+    clear: both;
+} */
+.partie {
+    background: lightgray;
+    padding: 30px;
+    margin-top: 0;
+}
+
+.footer {
+    background: gray;
+    padding: 20px;
+}
+
+
+.header-nav a {
+    color: inherit;
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.header-nav a:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+
+
+
+
+/* --------------------------------------- */
+
+
+.partie p:first-of-type::first-letter {
+    font-weight: bold;
+    font-size: 150px;
+}
+
+
+/* styliser le button */
+
+.button {
+    color: #fff;
+    background: #000;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.3em 0.5em;
+}
+
+/* style de l'exemple de position */
+
+.titre {
+    color: rgb(7, 53, 113);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    font-size: 2rem;
+    font-family: cursive;
+}
+
+.absolute {
+    background-color: yellow;
+    border: teal solid 5px;
+}
+
+.relative {
+    background-color: rgb(235, 235, 215);
+    border: rgb(135, 19, 104) solid 5px;
+}
+
+.fixed {
+    background-color: rgb(180, 42, 145);
+    border: rgb(55, 81, 45) solid 5px;
+}
+
+.sticky {
+    background-color: rgb(13, 87, 247);
+    border: rgb(48, 43, 3) solid 5px;
+}
+
+
+/* --------------------------------- */
+
+.floating1 {
+    float: left;
+}
+
+.floating2 {
+    float: right;
+}
+
+hr {
+    clear: right;
+}
